@@ -3,15 +3,15 @@ import requests
 url = 'http://localhost:9696/predict'
 
 genre_1 = {'acousticness': 0.000708,
-         'danceability': 0.652,
-         'duration_ms': 251520,
-         'energy': 0.798,
-         'instrumentalness': 0.0327,
-         'liveness': 0.112,
-         'loudness': -7.224,
-         'speechiness': 0.0325,
-         'tempo': 124.01,
-         'valence': 0.336}
+           'danceability': 0.652,
+           'duration_ms': 251520,
+           'energy': 0.798,
+           'instrumentalness': 0.0327,
+           'liveness': 0.112,
+           'loudness': -7.224,
+           'speechiness': 0.0325,
+           'tempo': 124.01,
+           'valence': 0.336}
 
 genre_2 = {'acousticness': 0.0036,
            'danceability': 0.744,
