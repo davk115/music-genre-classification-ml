@@ -32,7 +32,6 @@ def predict():
     result = {
         'genre_pred': str(genre_pred)
     }
-    print(result)
 
     return jsonify(result)
 
