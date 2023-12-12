@@ -10,6 +10,6 @@ RUN pipenv install --system --deploy
 
 COPY ["predict.py", "model.bin", "./"]
 
-EXPOSE 10000
+EXPOSE 9696
 
-ENTRYPOINT ["gunicorn", "--timeout", "20000", "--bind=0.0.0.0:10000", "predict:app"]
+ENTRYPOINT ["gunicorn", "--timeout", "20000", "--bind=0.0.0.0:9696", "predict:app"]
